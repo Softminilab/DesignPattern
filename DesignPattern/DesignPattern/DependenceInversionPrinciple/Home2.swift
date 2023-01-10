@@ -5,28 +5,41 @@
 //  Created by 0x2ab70001b1 on 2023/1/10.
 //
 
-class HaierRefrigerator {
+protocol Refrigerator {
+    func work()
+}
+
+protocol TV {
+    func show()
+}
+
+protocol Pot {
+    func cook()
+}
+
+
+class HaierRefrigerator: Refrigerator {
     func work() {
         print("Make food refresh")
     }
 }
 
-class XiaoMiTV {
+class XiaoMiTV: TV {
     func show() {
         print("look tv")
     }
 }
 
-class ZwillingPot {
+class ZwillingPot: Pot {
     func cook() {
         print("Cooking")
     }
 }
 
 class Home {
-    var refrigerator: HaierRefrigerator
-    var tv: XiaoMiTV
-    var pot: ZwillingPot
+    var refrigerator: Refrigerator
+    var tv: TV
+    var pot: Pot
     
     init(refrigerator: HaierRefrigerator, tv: XiaoMiTV, pot: ZwillingPot) {
         self.refrigerator = refrigerator
