@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066DA251296D9EAF00F225E9 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066DA250296D9EAF00F225E9 /* UserService.swift */; };
 		06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6E637296C5663007ED415 /* AppDelegate.swift */; };
 		06D6E641296C5665007ED415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E640296C5665007ED415 /* Assets.xcassets */; };
 		06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E642296C5665007ED415 /* LaunchScreen.storyboard */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		066DA250296D9EAF00F225E9 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		06D6E634296C5663007ED415 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D6E637296C5663007ED415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06D6E640296C5665007ED415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066DA24F296D9E8400F225E9 /* InterfaceSegregationPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				066DA250296D9EAF00F225E9 /* UserService.swift */,
+			);
+			path = InterfaceSegregationPrinciple;
+			sourceTree = "<group>";
+		};
 		06D6E62B296C5663007ED415 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		06D6E636296C5663007ED415 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				066DA24F296D9E8400F225E9 /* InterfaceSegregationPrinciple */,
 				06D6E64B296C56E6007ED415 /* LiskovSubsitutionPrinciple */,
 				06D6E637296C5663007ED415 /* AppDelegate.swift */,
 				06D6E640296C5665007ED415 /* Assets.xcassets */,
@@ -141,6 +152,7 @@
 			files = (
 				06D6E64D296C5710007ED415 /* LiskovSubsitutionPrinciple.swift in Sources */,
 				06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */,
+				066DA251296D9EAF00F225E9 /* UserService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
