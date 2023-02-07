@@ -20,14 +20,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        app.applyColor()
         
         // Law of demter
-        let agent = Agent(
-            start: Star(name: "Kare"),
-            fans: Fans(name: "peng", address: "天街八号"),
-            company: Company(name: "天宝传媒集团")
-        )
+//        let agent = Agent(
+//            start: Star(name: "Kare"),
+//            fans: Fans(name: "peng", address: "天街八号"),
+//            company: Company(name: "天宝传媒集团")
+//        )
+//
+//        agent.business()
+//        agent.metting()
         
-        agent.business()
-        agent.metting()
+        //
+        
+//        UserInfor2().getUserName(userInfo: UserInfor3())
+        
+//        print(#function)
+//        NvWa.invoker()
+        
+//        TestSimpleFacotry.testDiscount()
+//        TestSimpleFacotry.testYouKu()
+//        TestSimpleFacotry.testSmallGift()
+        
+//        TestAbstractFactory.test()
+        
+        TestBuilderPattern.test()
         return true
     }
 }
+
+
+/**
+ Java Volatile
+ 1. 保证变量内存可见性
+ 2. 禁止指令重排
+*/
+
