@@ -42,7 +42,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        TestAbstractFactory.test()
         
-        TestBuilderPattern.test()
+//        TestBuilderPattern.test()
+        
+        TestPrototypePattern.test2()
         return true
     }
 }
