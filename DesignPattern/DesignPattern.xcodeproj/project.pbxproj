@@ -10,7 +10,7 @@
 		06465D7E2994714A00364728 /* TestPrototypePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06465D7D2994714A00364728 /* TestPrototypePattern.swift */; };
 		06465D86299471F800364728 /* DesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06465D85299471F800364728 /* DesignPatternTests.swift */; };
 		06465D8D299608D100364728 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 06465D8C299608D100364728 /* README.md */; };
-		06465D9129960A1E00364728 /* PrototypePattern.md in Resources */ = {isa = PBXBuildFile; fileRef = 06465D9029960A1A00364728 /* PrototypePattern.md */; };
+		06465D9129960A1E00364728 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 06465D9029960A1A00364728 /* README.md */; };
 		066DA251296D9EAF00F225E9 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066DA250296D9EAF00F225E9 /* UserService.swift */; };
 		066DA254296DB08F00F225E9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066DA253296DB08F00F225E9 /* Home.swift */; };
 		066DA256296DB4FE00F225E9 /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066DA255296DB4FE00F225E9 /* Home2.swift */; };
@@ -70,7 +70,7 @@
 		06465D83299471F800364728 /* DesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06465D85299471F800364728 /* DesignPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternTests.swift; sourceTree = "<group>"; };
 		06465D8C299608D100364728 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		06465D9029960A1A00364728 /* PrototypePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PrototypePattern.md; sourceTree = "<group>"; };
+		06465D9029960A1A00364728 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		066DA250296D9EAF00F225E9 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		066DA253296DB08F00F225E9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		066DA255296DB4FE00F225E9 /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
@@ -281,7 +281,7 @@
 				06B3FFE829927C6200450A9C /* prototype_pattern.png */,
 				06B3FFEC29931D0800450A9C /* SmartPhone.swift */,
 				06465D7D2994714A00364728 /* TestPrototypePattern.swift */,
-				06465D9029960A1A00364728 /* PrototypePattern.md */,
+				06465D9029960A1A00364728 /* README.md */,
 			);
 			path = ProtoypePattern;
 			sourceTree = "<group>";
@@ -448,7 +448,7 @@
 			files = (
 				06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */,
 				068A850A298EB7FC003A055C /* 产品族和产品等级.png in Resources */,
-				06465D9129960A1E00364728 /* PrototypePattern.md in Resources */,
+				06465D9129960A1E00364728 /* README.md in Resources */,
 				068A850F2990847B003A055C /* BuilderPattern.png in Resources */,
 				06B3FFE929927C6200450A9C /* prototype_pattern.png in Resources */,
 				06D6E641296C5665007ED415 /* Assets.xcassets in Resources */,
