@@ -5,7 +5,7 @@
 //  Created by 0x2ab70001b1 on 2023/2/8.
 //
 
-class SmartPhone {
+open class SmartPhone {
     var name: String
     var color: String
     var capacity: Int
@@ -22,7 +22,7 @@ class SmartPhone {
 }
 
 extension SmartPhone: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         return """
 {
 name: \(name),

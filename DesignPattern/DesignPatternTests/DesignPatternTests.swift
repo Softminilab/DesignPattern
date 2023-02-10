@@ -2,34 +2,26 @@
 //  DesignPatternTests.swift
 //  DesignPatternTests
 //
-//  Created by 0x2ab70001b1 on 2023/2/4.
+//  Created by 0x2ab70001b1 on 2023/2/9.
 //
 
 import XCTest
 
 final class DesignPatternTests: XCTestCase {
+    func testPrototypePattern() {
+        let iPhoneSe =  SmartPhone(name: "iPhone SE", color: "Black", capacity: 64)
+        
+        let iphoneClone = iPhoneSe.clone()
+        iphoneClone.color = "red"
+        
+        let iphoneClone2 = iPhoneSe.clone()
+        iphoneClone2.name = "iPhone 14 pro"
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        let iphoneClone3 = iPhoneSe.clone()
+        iphoneClone3.capacity = 256
+        
+        print("iphoneClone \(iphoneClone)")
+        print("iphoneClone2 \(iphoneClone2)")
+        print("iphoneClone3 \(iphoneClone3)")
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
