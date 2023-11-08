@@ -11,7 +11,7 @@
 		064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
 		064CB0FD2AFA8624003DFD5A /* SRPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FC2AFA8624003DFD5A /* SRPTest.swift */; };
 		064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
-		064CB1022AFA88F8003DFD5A /* 单一责任原则.md in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1012AFA88F8003DFD5A /* 单一责任原则.md */; };
+		064CB1022AFA88F8003DFD5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1012AFA88F8003DFD5A /* README.md */; };
 		064CB1042AFA8906003DFD5A /* Phone关系图.png in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1032AFA8906003DFD5A /* Phone关系图.png */; };
 		06B3FFEB29927C7700450A9C /* UML标识.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06B3FFEA29927C7700450A9C /* UML标识.jpg */; };
 		06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6E637296C5663007ED415 /* AppDelegate.swift */; };
@@ -34,7 +34,7 @@
 		06465D85299471F800364728 /* DesignPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternTests.swift; sourceTree = "<group>"; };
 		064CB0FA2AFA80D5003DFD5A /* SRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
 		064CB0FC2AFA8624003DFD5A /* SRPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPTest.swift; sourceTree = "<group>"; };
-		064CB1012AFA88F8003DFD5A /* 单一责任原则.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "单一责任原则.md"; sourceTree = "<group>"; };
+		064CB1012AFA88F8003DFD5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		064CB1032AFA8906003DFD5A /* Phone关系图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone关系图.png"; sourceTree = "<group>"; };
 		06B3FFEA29927C7700450A9C /* UML标识.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UML标识.jpg"; sourceTree = "<group>"; };
 		06D6E634296C5663007ED415 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				064CB1032AFA8906003DFD5A /* Phone关系图.png */,
-				064CB1012AFA88F8003DFD5A /* 单一责任原则.md */,
+				064CB1012AFA88F8003DFD5A /* README.md */,
 				064CB0FA2AFA80D5003DFD5A /* SRP.swift */,
 			);
 			path = SRP;
@@ -217,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				064CB1042AFA8906003DFD5A /* Phone关系图.png in Resources */,
-				064CB1022AFA88F8003DFD5A /* 单一责任原则.md in Resources */,
+				064CB1022AFA88F8003DFD5A /* README.md in Resources */,
 				06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */,
 				06D6E641296C5665007ED415 /* Assets.xcassets in Resources */,
 				06B3FFEB29927C7700450A9C /* UML标识.jpg in Resources */,
