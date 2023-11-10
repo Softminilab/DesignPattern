@@ -3,7 +3,7 @@
 
 #### 定义
 
-单一责任责任原则英文名称：Signle Responsibility Principle,简称是SRP。
+单一责任原则英文名称：Signle Responsibility Principle, 简称是SRP。
 单一责任原则的定义是：应该`有且仅有`一个原因引起类的变更
 
 注意：
@@ -27,4 +27,4 @@
 
 #### SRP类使用的结构图
 
-![phone关系图](/Users/peng.j.rui/iOS/DesignPattern/DesignPattern/DesignPattern/设计原则/SRP/Phone关系图.png)
+![phone关系图](SRP关系图.png)

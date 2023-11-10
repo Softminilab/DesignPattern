@@ -10,6 +10,9 @@ import XCTest
 final class SRPTest: XCTestCase {
 
     override func setUpWithError() throws {
+    }
+    
+    func test() {
         let phone = Phone()
         phone.digal(phoneNumber: "11111")
         phone.dataTransfer(cmp: phone)

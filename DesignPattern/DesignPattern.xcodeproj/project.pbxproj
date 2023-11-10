@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06465D86299471F800364728 /* DesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06465D85299471F800364728 /* DesignPatternTests.swift */; };
 		064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
 		064CB0FD2AFA8624003DFD5A /* SRPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FC2AFA8624003DFD5A /* SRPTest.swift */; };
 		064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
 		064CB1022AFA88F8003DFD5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1012AFA88F8003DFD5A /* README.md */; };
-		064CB1042AFA8906003DFD5A /* Phone关系图.png in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1032AFA8906003DFD5A /* Phone关系图.png */; };
+		064CB1042AFA8906003DFD5A /* SRP关系图.png in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1032AFA8906003DFD5A /* SRP关系图.png */; };
+		064CB1082AFD2638003DFD5A /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB1072AFD2638003DFD5A /* LSP.swift */; };
+		064CB10A2AFD282C003DFD5A /* LSPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB1092AFD282C003DFD5A /* LSPTest.swift */; };
+		064CB10B2AFD2840003DFD5A /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB1072AFD2638003DFD5A /* LSP.swift */; };
+		064CB10F2AFE6369003DFD5A /* LSP关系图.png in Resources */ = {isa = PBXBuildFile; fileRef = 064CB10E2AFE6369003DFD5A /* LSP关系图.png */; };
 		06B3FFEB29927C7700450A9C /* UML标识.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06B3FFEA29927C7700450A9C /* UML标识.jpg */; };
 		06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6E637296C5663007ED415 /* AppDelegate.swift */; };
 		06D6E641296C5665007ED415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E640296C5665007ED415 /* Assets.xcassets */; };
@@ -31,11 +34,14 @@
 
 /* Begin PBXFileReference section */
 		06465D83299471F800364728 /* DesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06465D85299471F800364728 /* DesignPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternTests.swift; sourceTree = "<group>"; };
 		064CB0FA2AFA80D5003DFD5A /* SRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
 		064CB0FC2AFA8624003DFD5A /* SRPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPTest.swift; sourceTree = "<group>"; };
 		064CB1012AFA88F8003DFD5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		064CB1032AFA8906003DFD5A /* Phone关系图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone关系图.png"; sourceTree = "<group>"; };
+		064CB1032AFA8906003DFD5A /* SRP关系图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRP关系图.png"; sourceTree = "<group>"; };
+		064CB1062AFD1DA3003DFD5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		064CB1072AFD2638003DFD5A /* LSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP.swift; sourceTree = "<group>"; };
+		064CB1092AFD282C003DFD5A /* LSPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPTest.swift; sourceTree = "<group>"; };
+		064CB10E2AFE6369003DFD5A /* LSP关系图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LSP关系图.png"; sourceTree = "<group>"; };
 		06B3FFEA29927C7700450A9C /* UML标识.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UML标识.jpg"; sourceTree = "<group>"; };
 		06D6E634296C5663007ED415 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D6E637296C5663007ED415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +71,7 @@
 		06465D84299471F800364728 /* DesignPatternTests */ = {
 			isa = PBXGroup;
 			children = (
-				06465D85299471F800364728 /* DesignPatternTests.swift */,
+				064CB1092AFD282C003DFD5A /* LSPTest.swift */,
 				064CB0FC2AFA8624003DFD5A /* SRPTest.swift */,
 			);
 			path = DesignPatternTests;
@@ -74,6 +80,7 @@
 		064CB0F52AFA7F59003DFD5A /* 设计原则 */ = {
 			isa = PBXGroup;
 			children = (
+				064CB1052AFD1D9C003DFD5A /* LSP */,
 				064CB0F72AFA7F6B003DFD5A /* SRP */,
 			);
 			path = "设计原则";
@@ -89,11 +96,21 @@
 		064CB0F72AFA7F6B003DFD5A /* SRP */ = {
 			isa = PBXGroup;
 			children = (
-				064CB1032AFA8906003DFD5A /* Phone关系图.png */,
+				064CB1032AFA8906003DFD5A /* SRP关系图.png */,
 				064CB1012AFA88F8003DFD5A /* README.md */,
 				064CB0FA2AFA80D5003DFD5A /* SRP.swift */,
 			);
 			path = SRP;
+			sourceTree = "<group>";
+		};
+		064CB1052AFD1D9C003DFD5A /* LSP */ = {
+			isa = PBXGroup;
+			children = (
+				064CB1062AFD1DA3003DFD5A /* README.md */,
+				064CB1072AFD2638003DFD5A /* LSP.swift */,
+				064CB10E2AFE6369003DFD5A /* LSP关系图.png */,
+			);
+			path = LSP;
 			sourceTree = "<group>";
 		};
 		06D6E62B296C5663007ED415 = {
@@ -216,8 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				064CB1042AFA8906003DFD5A /* Phone关系图.png in Resources */,
+				064CB1042AFA8906003DFD5A /* SRP关系图.png in Resources */,
 				064CB1022AFA88F8003DFD5A /* README.md in Resources */,
+				064CB10F2AFE6369003DFD5A /* LSP关系图.png in Resources */,
 				06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */,
 				06D6E641296C5665007ED415 /* Assets.xcassets in Resources */,
 				06B3FFEB29927C7700450A9C /* UML标识.jpg in Resources */,
@@ -231,9 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064CB10A2AFD282C003DFD5A /* LSPTest.swift in Sources */,
 				064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */,
-				06465D86299471F800364728 /* DesignPatternTests.swift in Sources */,
 				064CB0FD2AFA8624003DFD5A /* SRPTest.swift in Sources */,
+				064CB10B2AFD2840003DFD5A /* LSP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064CB1082AFD2638003DFD5A /* LSP.swift in Sources */,
 				06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */,
 				064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */,
 			);

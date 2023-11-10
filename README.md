@@ -1,3 +1,4 @@
 # DesignPattern
 #### 六大设计原则
-![](/Images/SRP.png)
+![](/Images/SRP.png)![](/Images/LSP.png)
+
