@@ -12,5 +12,7 @@ final class FactoryTest: XCTestCase {
         Client.callFactoryMethod(creator: ConcreteCreator1())
         
         Client.callFactoryMethod(creator: ConcreteCreator2())
+        
+        print(#function)
     }
 }
