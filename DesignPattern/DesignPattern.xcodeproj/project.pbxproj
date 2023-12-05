@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06144B932B0B9FD300930307 /* Depends_on_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B922B0B9FD300930307 /* Depends_on_interface.swift */; };
+		06144B952B0BA01E00930307 /* Depends_on_Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B942B0BA01E00930307 /* Depends_on_Details.swift */; };
+		06144B962B0BA12400930307 /* Depends_on_Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B942B0BA01E00930307 /* Depends_on_Details.swift */; };
+		06144B972B0BA12400930307 /* Depends_on_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B922B0B9FD300930307 /* Depends_on_interface.swift */; };
+		06144B992B0BA13A00930307 /* Depends_on_Details_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B982B0BA13A00930307 /* Depends_on_Details_Test.swift */; };
+		06144B9B2B0BA35400930307 /* Depends_on_Interface_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B9A2B0BA35400930307 /* Depends_on_Interface_Test.swift */; };
+		06144B9E2B0BA86300930307 /* Depends_on_Interface2_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B9D2B0BA86300930307 /* Depends_on_Interface2_Test.swift */; };
+		06144B9F2B0BA89400930307 /* Depends_on_interface2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B9C2B0BA69000930307 /* Depends_on_interface2.swift */; };
+		06144BA02B0BA89500930307 /* Depends_on_interface2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06144B9C2B0BA69000930307 /* Depends_on_interface2.swift */; };
+		0627B3E92B1F6089006F7B96 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3E82B1F6089006F7B96 /* Factory.swift */; };
+		0627B3EC2B1F6428006F7B96 /* FactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3EB2B1F6428006F7B96 /* FactoryTest.swift */; };
+		0627B3ED2B1F649C006F7B96 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3E82B1F6089006F7B96 /* Factory.swift */; };
 		064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
 		064CB0FD2AFA8624003DFD5A /* SRPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FC2AFA8624003DFD5A /* SRPTest.swift */; };
 		064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
-		064CB1022AFA88F8003DFD5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1012AFA88F8003DFD5A /* README.md */; };
 		064CB1042AFA8906003DFD5A /* SRP关系图.png in Resources */ = {isa = PBXBuildFile; fileRef = 064CB1032AFA8906003DFD5A /* SRP关系图.png */; };
 		064CB1082AFD2638003DFD5A /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB1072AFD2638003DFD5A /* LSP.swift */; };
 		064CB10A2AFD282C003DFD5A /* LSPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB1092AFD282C003DFD5A /* LSPTest.swift */; };
@@ -33,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06144B922B0B9FD300930307 /* Depends_on_interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depends_on_interface.swift; sourceTree = "<group>"; };
+		06144B942B0BA01E00930307 /* Depends_on_Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depends_on_Details.swift; sourceTree = "<group>"; };
+		06144B982B0BA13A00930307 /* Depends_on_Details_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depends_on_Details_Test.swift; sourceTree = "<group>"; };
+		06144B9A2B0BA35400930307 /* Depends_on_Interface_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depends_on_Interface_Test.swift; sourceTree = "<group>"; };
+		06144B9C2B0BA69000930307 /* Depends_on_interface2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depends_on_interface2.swift; sourceTree = "<group>"; };
+		06144B9D2B0BA86300930307 /* Depends_on_Interface2_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depends_on_Interface2_Test.swift; sourceTree = "<group>"; };
+		0627B3E12B18CF18006F7B96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0627B3E62B1F5E1F006F7B96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0627B3E82B1F6089006F7B96 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		0627B3EB2B1F6428006F7B96 /* FactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryTest.swift; sourceTree = "<group>"; };
 		06465D83299471F800364728 /* DesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064CB0FA2AFA80D5003DFD5A /* SRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
 		064CB0FC2AFA8624003DFD5A /* SRPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPTest.swift; sourceTree = "<group>"; };
@@ -42,6 +63,8 @@
 		064CB1072AFD2638003DFD5A /* LSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP.swift; sourceTree = "<group>"; };
 		064CB1092AFD282C003DFD5A /* LSPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPTest.swift; sourceTree = "<group>"; };
 		064CB10E2AFE6369003DFD5A /* LSP关系图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LSP关系图.png"; sourceTree = "<group>"; };
+		064CB1112AFE64AC003DFD5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		067CC4F12B0E547600B85156 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		06B3FFEA29927C7700450A9C /* UML标识.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UML标识.jpg"; sourceTree = "<group>"; };
 		06D6E634296C5663007ED415 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D6E637296C5663007ED415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,11 +91,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06144B912B0B9F5600930307 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				06144B942B0BA01E00930307 /* Depends_on_Details.swift */,
+				06144B9C2B0BA69000930307 /* Depends_on_interface2.swift */,
+				06144B922B0B9FD300930307 /* Depends_on_interface.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0627B3E02B18CF04006F7B96 /* 接口隔离原则（ISP） */ = {
+			isa = PBXGroup;
+			children = (
+				0627B3E12B18CF18006F7B96 /* README.md */,
+			);
+			path = "接口隔离原则（ISP）";
+			sourceTree = "<group>";
+		};
+		0627B3E52B1F5E12006F7B96 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0627B3E62B1F5E1F006F7B96 /* README.md */,
+				0627B3E82B1F6089006F7B96 /* Factory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		0627B3EA2B1F6409006F7B96 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				0627B3EB2B1F6428006F7B96 /* FactoryTest.swift */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
 		06465D84299471F800364728 /* DesignPatternTests */ = {
 			isa = PBXGroup;
 			children = (
+				0627B3EA2B1F6409006F7B96 /* 设计模式 */,
 				064CB1092AFD282C003DFD5A /* LSPTest.swift */,
 				064CB0FC2AFA8624003DFD5A /* SRPTest.swift */,
+				06144B9A2B0BA35400930307 /* Depends_on_Interface_Test.swift */,
+				06144B9D2B0BA86300930307 /* Depends_on_Interface2_Test.swift */,
+				06144B982B0BA13A00930307 /* Depends_on_Details_Test.swift */,
 			);
 			path = DesignPatternTests;
 			sourceTree = "<group>";
@@ -80,8 +142,11 @@
 		064CB0F52AFA7F59003DFD5A /* 设计原则 */ = {
 			isa = PBXGroup;
 			children = (
-				064CB1052AFD1D9C003DFD5A /* LSP */,
-				064CB0F72AFA7F6B003DFD5A /* SRP */,
+				0627B3E02B18CF04006F7B96 /* 接口隔离原则（ISP） */,
+				067CC4F02B0E545300B85156 /* 开闭原则（OCP） */,
+				064CB1102AFE649D003DFD5A /* 依赖倒置原则（DIP） */,
+				064CB1052AFD1D9C003DFD5A /* 里氏替换原则（LSP） */,
+				064CB0F72AFA7F6B003DFD5A /* 单一责任原则(SRP) */,
 			);
 			path = "设计原则";
 			sourceTree = "<group>";
@@ -89,28 +154,45 @@
 		064CB0F62AFA7F65003DFD5A /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				0627B3E52B1F5E12006F7B96 /* Factory */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
 		};
-		064CB0F72AFA7F6B003DFD5A /* SRP */ = {
+		064CB0F72AFA7F6B003DFD5A /* 单一责任原则(SRP) */ = {
 			isa = PBXGroup;
 			children = (
 				064CB1032AFA8906003DFD5A /* SRP关系图.png */,
 				064CB1012AFA88F8003DFD5A /* README.md */,
 				064CB0FA2AFA80D5003DFD5A /* SRP.swift */,
 			);
-			path = SRP;
+			path = "单一责任原则(SRP)";
 			sourceTree = "<group>";
 		};
-		064CB1052AFD1D9C003DFD5A /* LSP */ = {
+		064CB1052AFD1D9C003DFD5A /* 里氏替换原则（LSP） */ = {
 			isa = PBXGroup;
 			children = (
 				064CB1062AFD1DA3003DFD5A /* README.md */,
 				064CB1072AFD2638003DFD5A /* LSP.swift */,
 				064CB10E2AFE6369003DFD5A /* LSP关系图.png */,
 			);
-			path = LSP;
+			path = "里氏替换原则（LSP）";
+			sourceTree = "<group>";
+		};
+		064CB1102AFE649D003DFD5A /* 依赖倒置原则（DIP） */ = {
+			isa = PBXGroup;
+			children = (
+				064CB1112AFE64AC003DFD5A /* README.md */,
+			);
+			path = "依赖倒置原则（DIP）";
+			sourceTree = "<group>";
+		};
+		067CC4F02B0E545300B85156 /* 开闭原则（OCP） */ = {
+			isa = PBXGroup;
+			children = (
+				067CC4F12B0E547600B85156 /* README.md */,
+			);
+			path = "开闭原则（OCP）";
 			sourceTree = "<group>";
 		};
 		06D6E62B296C5663007ED415 = {
@@ -134,6 +216,7 @@
 		06D6E636296C5663007ED415 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				06144B912B0B9F5600930307 /* Other */,
 				064CB0F62AFA7F65003DFD5A /* 设计模式 */,
 				064CB0F52AFA7F59003DFD5A /* 设计原则 */,
 				06D6E637296C5663007ED415 /* AppDelegate.swift */,
@@ -234,7 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				064CB1042AFA8906003DFD5A /* SRP关系图.png in Resources */,
-				064CB1022AFA88F8003DFD5A /* README.md in Resources */,
 				064CB10F2AFE6369003DFD5A /* LSP关系图.png in Resources */,
 				06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */,
 				06D6E641296C5665007ED415 /* Assets.xcassets in Resources */,
@@ -250,9 +332,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				064CB10A2AFD282C003DFD5A /* LSPTest.swift in Sources */,
+				06144B962B0BA12400930307 /* Depends_on_Details.swift in Sources */,
+				06144B992B0BA13A00930307 /* Depends_on_Details_Test.swift in Sources */,
+				06144B972B0BA12400930307 /* Depends_on_interface.swift in Sources */,
 				064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */,
+				06144BA02B0BA89500930307 /* Depends_on_interface2.swift in Sources */,
 				064CB0FD2AFA8624003DFD5A /* SRPTest.swift in Sources */,
 				064CB10B2AFD2840003DFD5A /* LSP.swift in Sources */,
+				0627B3ED2B1F649C006F7B96 /* Factory.swift in Sources */,
+				0627B3EC2B1F6428006F7B96 /* FactoryTest.swift in Sources */,
+				06144B9B2B0BA35400930307 /* Depends_on_Interface_Test.swift in Sources */,
+				06144B9E2B0BA86300930307 /* Depends_on_Interface2_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06144B932B0B9FD300930307 /* Depends_on_interface.swift in Sources */,
 				064CB1082AFD2638003DFD5A /* LSP.swift in Sources */,
 				06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */,
+				06144B952B0BA01E00930307 /* Depends_on_Details.swift in Sources */,
 				064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */,
+				06144B9F2B0BA89400930307 /* Depends_on_interface2.swift in Sources */,
+				0627B3E92B1F6089006F7B96 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
