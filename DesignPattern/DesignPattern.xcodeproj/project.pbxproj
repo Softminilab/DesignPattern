@@ -19,6 +19,15 @@
 		0627B3E92B1F6089006F7B96 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3E82B1F6089006F7B96 /* Factory.swift */; };
 		0627B3EC2B1F6428006F7B96 /* FactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3EB2B1F6428006F7B96 /* FactoryTest.swift */; };
 		0627B3ED2B1F649C006F7B96 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3E82B1F6089006F7B96 /* Factory.swift */; };
+		0627B3F22B20BB97006F7B96 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3F12B20BB97006F7B96 /* AbstractFactory.swift */; };
+		0627B3F42B20BDD8006F7B96 /* AbstractFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3F32B20BDD8006F7B96 /* AbstractFactoryTest.swift */; };
+		0627B3F52B20BDDE006F7B96 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3F12B20BB97006F7B96 /* AbstractFactory.swift */; };
+		0627B3F72B22037D006F7B96 /* abstract_factory.png in Resources */ = {isa = PBXBuildFile; fileRef = 0627B3F62B22037D006F7B96 /* abstract_factory.png */; };
+		0627B3F92B2203E9006F7B96 /* 对象和类的关系.png in Resources */ = {isa = PBXBuildFile; fileRef = 0627B3F82B2203E9006F7B96 /* 对象和类的关系.png */; };
+		0627B3FD2B221FBD006F7B96 /* Builder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0627B3FC2B221FBD006F7B96 /* Builder.png */; };
+		0627B3FF2B27532B006F7B96 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3FE2B27532B006F7B96 /* Builder.swift */; };
+		0627B4012B275552006F7B96 /* BuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B4002B275552006F7B96 /* BuilderTest.swift */; };
+		0627B4022B275556006F7B96 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0627B3FE2B27532B006F7B96 /* Builder.swift */; };
 		064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
 		064CB0FD2AFA8624003DFD5A /* SRPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FC2AFA8624003DFD5A /* SRPTest.swift */; };
 		064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB0FA2AFA80D5003DFD5A /* SRP.swift */; };
@@ -54,6 +63,16 @@
 		0627B3E62B1F5E1F006F7B96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0627B3E82B1F6089006F7B96 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		0627B3EB2B1F6428006F7B96 /* FactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryTest.swift; sourceTree = "<group>"; };
+		0627B3F02B20B4DB006F7B96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0627B3F12B20BB97006F7B96 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		0627B3F32B20BDD8006F7B96 /* AbstractFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTest.swift; sourceTree = "<group>"; };
+		0627B3F62B22037D006F7B96 /* abstract_factory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstract_factory.png; sourceTree = "<group>"; };
+		0627B3F82B2203E9006F7B96 /* 对象和类的关系.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对象和类的关系.png"; sourceTree = "<group>"; };
+		0627B3FB2B22045D006F7B96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0627B3FC2B221FBD006F7B96 /* Builder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Builder.png; sourceTree = "<group>"; };
+		0627B3FE2B27532B006F7B96 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		0627B4002B275552006F7B96 /* BuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderTest.swift; sourceTree = "<group>"; };
+		0627B4052B27E004006F7B96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		06465D83299471F800364728 /* DesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064CB0FA2AFA80D5003DFD5A /* SRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
 		064CB0FC2AFA8624003DFD5A /* SRPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPTest.swift; sourceTree = "<group>"; };
@@ -112,8 +131,8 @@
 		0627B3E52B1F5E12006F7B96 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				0627B3E62B1F5E1F006F7B96 /* README.md */,
 				0627B3E82B1F6089006F7B96 /* Factory.swift */,
+				0627B3F02B20B4DB006F7B96 /* README.md */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -122,8 +141,38 @@
 			isa = PBXGroup;
 			children = (
 				0627B3EB2B1F6428006F7B96 /* FactoryTest.swift */,
+				0627B3F32B20BDD8006F7B96 /* AbstractFactoryTest.swift */,
+				0627B4002B275552006F7B96 /* BuilderTest.swift */,
 			);
 			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		0627B3EF2B1F6E7C006F7B96 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				0627B3F62B22037D006F7B96 /* abstract_factory.png */,
+				0627B3E62B1F5E1F006F7B96 /* README.md */,
+				0627B3F12B20BB97006F7B96 /* AbstractFactory.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		0627B3FA2B220453006F7B96 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				0627B3FB2B22045D006F7B96 /* README.md */,
+				0627B3FC2B221FBD006F7B96 /* Builder.png */,
+				0627B3FE2B27532B006F7B96 /* Builder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		0627B4032B27DFF7006F7B96 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				0627B4052B27E004006F7B96 /* README.md */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 		06465D84299471F800364728 /* DesignPatternTests */ = {
@@ -154,6 +203,9 @@
 		064CB0F62AFA7F65003DFD5A /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				0627B4032B27DFF7006F7B96 /* Prototype */,
+				0627B3FA2B220453006F7B96 /* Builder */,
+				0627B3EF2B1F6E7C006F7B96 /* AbstractFactory */,
 				0627B3E52B1F5E12006F7B96 /* Factory */,
 			);
 			path = "设计模式";
@@ -221,6 +273,7 @@
 				064CB0F52AFA7F59003DFD5A /* 设计原则 */,
 				06D6E637296C5663007ED415 /* AppDelegate.swift */,
 				06B3FFEA29927C7700450A9C /* UML标识.jpg */,
+				0627B3F82B2203E9006F7B96 /* 对象和类的关系.png */,
 				06D6E640296C5665007ED415 /* Assets.xcassets */,
 				06D6E642296C5665007ED415 /* LaunchScreen.storyboard */,
 				06D6E645296C5665007ED415 /* Info.plist */,
@@ -320,6 +373,9 @@
 				064CB10F2AFE6369003DFD5A /* LSP关系图.png in Resources */,
 				06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */,
 				06D6E641296C5665007ED415 /* Assets.xcassets in Resources */,
+				0627B3F92B2203E9006F7B96 /* 对象和类的关系.png in Resources */,
+				0627B3FD2B221FBD006F7B96 /* Builder.png in Resources */,
+				0627B3F72B22037D006F7B96 /* abstract_factory.png in Resources */,
 				06B3FFEB29927C7700450A9C /* UML标识.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,14 +391,18 @@
 				06144B962B0BA12400930307 /* Depends_on_Details.swift in Sources */,
 				06144B992B0BA13A00930307 /* Depends_on_Details_Test.swift in Sources */,
 				06144B972B0BA12400930307 /* Depends_on_interface.swift in Sources */,
+				0627B4012B275552006F7B96 /* BuilderTest.swift in Sources */,
 				064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */,
 				06144BA02B0BA89500930307 /* Depends_on_interface2.swift in Sources */,
+				0627B3F52B20BDDE006F7B96 /* AbstractFactory.swift in Sources */,
 				064CB0FD2AFA8624003DFD5A /* SRPTest.swift in Sources */,
 				064CB10B2AFD2840003DFD5A /* LSP.swift in Sources */,
 				0627B3ED2B1F649C006F7B96 /* Factory.swift in Sources */,
+				0627B3F42B20BDD8006F7B96 /* AbstractFactoryTest.swift in Sources */,
 				0627B3EC2B1F6428006F7B96 /* FactoryTest.swift in Sources */,
 				06144B9B2B0BA35400930307 /* Depends_on_Interface_Test.swift in Sources */,
 				06144B9E2B0BA86300930307 /* Depends_on_Interface2_Test.swift in Sources */,
+				0627B4022B275556006F7B96 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +414,8 @@
 				064CB1082AFD2638003DFD5A /* LSP.swift in Sources */,
 				06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */,
 				06144B952B0BA01E00930307 /* Depends_on_Details.swift in Sources */,
+				0627B3F22B20BB97006F7B96 /* AbstractFactory.swift in Sources */,
+				0627B3FF2B27532B006F7B96 /* Builder.swift in Sources */,
 				064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */,
 				06144B9F2B0BA89400930307 /* Depends_on_interface2.swift in Sources */,
 				0627B3E92B1F6089006F7B96 /* Factory.swift in Sources */,
