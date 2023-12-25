@@ -36,10 +36,24 @@
 		064CB10A2AFD282C003DFD5A /* LSPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB1092AFD282C003DFD5A /* LSPTest.swift */; };
 		064CB10B2AFD2840003DFD5A /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB1072AFD2638003DFD5A /* LSP.swift */; };
 		064CB10F2AFE6369003DFD5A /* LSP关系图.png in Resources */ = {isa = PBXBuildFile; fileRef = 064CB10E2AFE6369003DFD5A /* LSP关系图.png */; };
+		06515BA92B30223B00245CF5 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06515BA82B30223B00245CF5 /* Prototype.swift */; };
+		06515BAB2B3022AE00245CF5 /* PrototypeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06515BAA2B3022AE00245CF5 /* PrototypeTest.swift */; };
+		06515BAC2B3022B400245CF5 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06515BA82B30223B00245CF5 /* Prototype.swift */; };
+		0675C9322B30354200814975 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675C9312B30354200814975 /* Singleton.swift */; };
+		0675C9362B30369300814975 /* SingletonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675C9352B30369300814975 /* SingletonTest.swift */; };
+		0675C9372B30369700814975 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675C9312B30354200814975 /* Singleton.swift */; };
 		06B3FFEB29927C7700450A9C /* UML标识.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06B3FFEA29927C7700450A9C /* UML标识.jpg */; };
 		06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6E637296C5663007ED415 /* AppDelegate.swift */; };
 		06D6E641296C5665007ED415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E640296C5665007ED415 /* Assets.xcassets */; };
 		06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E642296C5665007ED415 /* LaunchScreen.storyboard */; };
+		06FD876C2B312E9F0060F71D /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD876B2B312E9F0060F71D /* Adapter.swift */; };
+		06FD876E2B3132200060F71D /* AdapterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD876D2B3132200060F71D /* AdapterTest.swift */; };
+		06FD876F2B3132280060F71D /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD876B2B312E9F0060F71D /* Adapter.swift */; };
+		06FD87732B3427700060F71D /* bridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FD87722B3427700060F71D /* bridge.png */; };
+		06FD87752B342AEA0060F71D /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD87742B342AEA0060F71D /* Bridge.swift */; };
+		06FD87772B3430390060F71D /* BridgeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD87762B3430390060F71D /* BridgeTest.swift */; };
+		06FD87782B34303D0060F71D /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD87742B342AEA0060F71D /* Bridge.swift */; };
+		06FD877A2B3431B30060F71D /* bridge_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FD87792B3431B30060F71D /* bridge_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +97,12 @@
 		064CB1092AFD282C003DFD5A /* LSPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPTest.swift; sourceTree = "<group>"; };
 		064CB10E2AFE6369003DFD5A /* LSP关系图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LSP关系图.png"; sourceTree = "<group>"; };
 		064CB1112AFE64AC003DFD5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06515BA82B30223B00245CF5 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		06515BAA2B3022AE00245CF5 /* PrototypeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeTest.swift; sourceTree = "<group>"; };
+		0675C9302B3031C800814975 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0675C9312B30354200814975 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		0675C9342B3035BF00814975 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0675C9352B30369300814975 /* SingletonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTest.swift; sourceTree = "<group>"; };
 		067CC4F12B0E547600B85156 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		06B3FFEA29927C7700450A9C /* UML标识.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "UML标识.jpg"; sourceTree = "<group>"; };
 		06D6E634296C5663007ED415 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +110,15 @@
 		06D6E640296C5665007ED415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D6E643296C5665007ED415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06D6E645296C5665007ED415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FD87682B303B470060F71D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06FD876A2B30808C0060F71D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06FD876B2B312E9F0060F71D /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		06FD876D2B3132200060F71D /* AdapterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterTest.swift; sourceTree = "<group>"; };
+		06FD87712B3134720060F71D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06FD87722B3427700060F71D /* bridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge.png; sourceTree = "<group>"; };
+		06FD87742B342AEA0060F71D /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		06FD87762B3430390060F71D /* BridgeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTest.swift; sourceTree = "<group>"; };
+		06FD87792B3431B30060F71D /* bridge_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +172,10 @@
 				0627B3EB2B1F6428006F7B96 /* FactoryTest.swift */,
 				0627B3F32B20BDD8006F7B96 /* AbstractFactoryTest.swift */,
 				0627B4002B275552006F7B96 /* BuilderTest.swift */,
+				06515BAA2B3022AE00245CF5 /* PrototypeTest.swift */,
+				0675C9352B30369300814975 /* SingletonTest.swift */,
+				06FD876D2B3132200060F71D /* AdapterTest.swift */,
+				06FD87762B3430390060F71D /* BridgeTest.swift */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -171,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				0627B4052B27E004006F7B96 /* README.md */,
+				06515BA82B30223B00245CF5 /* Prototype.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -203,10 +237,8 @@
 		064CB0F62AFA7F65003DFD5A /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
-				0627B4032B27DFF7006F7B96 /* Prototype */,
-				0627B3FA2B220453006F7B96 /* Builder */,
-				0627B3EF2B1F6E7C006F7B96 /* AbstractFactory */,
-				0627B3E52B1F5E12006F7B96 /* Factory */,
+				06FD87672B303B1D0060F71D /* StructuralPatterns */,
+				0675C9332B3035AA00814975 /* CreationalPatterns */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -237,6 +269,28 @@
 				064CB1112AFE64AC003DFD5A /* README.md */,
 			);
 			path = "依赖倒置原则（DIP）";
+			sourceTree = "<group>";
+		};
+		0675C92F2B3031BB00814975 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				0675C9302B3031C800814975 /* README.md */,
+				0675C9312B30354200814975 /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		0675C9332B3035AA00814975 /* CreationalPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				0675C9342B3035BF00814975 /* README.md */,
+				0675C92F2B3031BB00814975 /* Singleton */,
+				0627B4032B27DFF7006F7B96 /* Prototype */,
+				0627B3FA2B220453006F7B96 /* Builder */,
+				0627B3EF2B1F6E7C006F7B96 /* AbstractFactory */,
+				0627B3E52B1F5E12006F7B96 /* Factory */,
+			);
+			path = CreationalPatterns;
 			sourceTree = "<group>";
 		};
 		067CC4F02B0E545300B85156 /* 开闭原则（OCP） */ = {
@@ -279,6 +333,36 @@
 				06D6E645296C5665007ED415 /* Info.plist */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		06FD87672B303B1D0060F71D /* StructuralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				06FD87702B3134510060F71D /* Bridge */,
+				06FD87692B30807F0060F71D /* Adapter */,
+				06FD87682B303B470060F71D /* README.md */,
+			);
+			path = StructuralPatterns;
+			sourceTree = "<group>";
+		};
+		06FD87692B30807F0060F71D /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				06FD876A2B30808C0060F71D /* README.md */,
+				06FD876B2B312E9F0060F71D /* Adapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		06FD87702B3134510060F71D /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				06FD87712B3134720060F71D /* README.md */,
+				06FD87792B3431B30060F71D /* bridge_2.png */,
+				06FD87722B3427700060F71D /* bridge.png */,
+				06FD87742B342AEA0060F71D /* Bridge.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +457,8 @@
 				064CB10F2AFE6369003DFD5A /* LSP关系图.png in Resources */,
 				06D6E644296C5665007ED415 /* LaunchScreen.storyboard in Resources */,
 				06D6E641296C5665007ED415 /* Assets.xcassets in Resources */,
+				06FD87732B3427700060F71D /* bridge.png in Resources */,
+				06FD877A2B3431B30060F71D /* bridge_2.png in Resources */,
 				0627B3F92B2203E9006F7B96 /* 对象和类的关系.png in Resources */,
 				0627B3FD2B221FBD006F7B96 /* Builder.png in Resources */,
 				0627B3F72B22037D006F7B96 /* abstract_factory.png in Resources */,
@@ -387,9 +473,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0675C9362B30369300814975 /* SingletonTest.swift in Sources */,
 				064CB10A2AFD282C003DFD5A /* LSPTest.swift in Sources */,
 				06144B962B0BA12400930307 /* Depends_on_Details.swift in Sources */,
 				06144B992B0BA13A00930307 /* Depends_on_Details_Test.swift in Sources */,
+				06FD87772B3430390060F71D /* BridgeTest.swift in Sources */,
 				06144B972B0BA12400930307 /* Depends_on_interface.swift in Sources */,
 				0627B4012B275552006F7B96 /* BuilderTest.swift in Sources */,
 				064CB0FE2AFA869C003DFD5A /* SRP.swift in Sources */,
@@ -399,8 +487,14 @@
 				064CB10B2AFD2840003DFD5A /* LSP.swift in Sources */,
 				0627B3ED2B1F649C006F7B96 /* Factory.swift in Sources */,
 				0627B3F42B20BDD8006F7B96 /* AbstractFactoryTest.swift in Sources */,
+				0675C9372B30369700814975 /* Singleton.swift in Sources */,
 				0627B3EC2B1F6428006F7B96 /* FactoryTest.swift in Sources */,
+				06FD876E2B3132200060F71D /* AdapterTest.swift in Sources */,
 				06144B9B2B0BA35400930307 /* Depends_on_Interface_Test.swift in Sources */,
+				06FD876F2B3132280060F71D /* Adapter.swift in Sources */,
+				06515BAC2B3022B400245CF5 /* Prototype.swift in Sources */,
+				06FD87782B34303D0060F71D /* Bridge.swift in Sources */,
+				06515BAB2B3022AE00245CF5 /* PrototypeTest.swift in Sources */,
 				06144B9E2B0BA86300930307 /* Depends_on_Interface2_Test.swift in Sources */,
 				0627B4022B275556006F7B96 /* Builder.swift in Sources */,
 			);
@@ -411,11 +505,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				06144B932B0B9FD300930307 /* Depends_on_interface.swift in Sources */,
+				06FD876C2B312E9F0060F71D /* Adapter.swift in Sources */,
 				064CB1082AFD2638003DFD5A /* LSP.swift in Sources */,
 				06D6E638296C5663007ED415 /* AppDelegate.swift in Sources */,
 				06144B952B0BA01E00930307 /* Depends_on_Details.swift in Sources */,
 				0627B3F22B20BB97006F7B96 /* AbstractFactory.swift in Sources */,
 				0627B3FF2B27532B006F7B96 /* Builder.swift in Sources */,
+				0675C9322B30354200814975 /* Singleton.swift in Sources */,
+				06FD87752B342AEA0060F71D /* Bridge.swift in Sources */,
+				06515BA92B30223B00245CF5 /* Prototype.swift in Sources */,
 				064CB0FB2AFA80D5003DFD5A /* SRP.swift in Sources */,
 				06144B9F2B0BA89400930307 /* Depends_on_interface2.swift in Sources */,
 				0627B3E92B1F6089006F7B96 /* Factory.swift in Sources */,
